@@ -1,40 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Kode+Mono:wght@400..700&family=Nova+Mono&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <nav class="navbar">
-        <div class="logo">SUMUKHA UPADHYAYA</div>
-        <div class="nav-links">
-            <a href="#about">ABOUT</a>
-            <a href="#projects">PROJECTS</a>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Portfolio Website</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect"/>
+        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&amp;family=Kode+Mono:wght@400..700&amp;family=Nova+Mono&amp;display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav class="div_section1">
+            <div class="text_big1">SUMUKHA UPADHYAYA</div>
+            <div class="link_container2">
+                <a href="#about">ABOUT</a>
+                <a href="#projects-section">PROJECTS</a>
+            </div>
+            <a class="clickable_box3" href="mailto:youremail@example.com">CONTACT ME</a>
+        </nav>
+        <main class="middle_stuff4">
+            <h1 class="big_text5">SOFTWARE<br/>ENGINEER</h1>
+            <div class="bendy_line6"></div>
+        </main>
+        <div class="bottom_stuff7">
+            <div class="left_button8">
+                <div class="round_shape10"></div>
+                <a href="#projects-section">Projects</a>
+            </div>
+            <div class="right_button9">
+                <a href="#skills-section">Skills</a>
+                <div class="round_shape10"></div>
+            </div>
         </div>
-        <a href="#contact" class="contact-btn">CONTACT ME</a>
-    </nav>
-
-
-    <main class="main-content">
-        <h1 class="title">SOFTWARE<br>ENGINEER</h1>
-        <div class="curve"></div>
-    </main>
-
-    <footer class="footer-links">
-        <div class="projects-link">
-            <div class="circle"></div>
-            <a href="#projects">Projects</a>
+    </div>
+    <section id="skills-section">
+        <div class="skills-block">
+            <h2 class="skills-heading">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-number">1</div>
+                    <div class="skill-content">
+                        <h3>Team Management</h3>
+                        <p>I am good at team management and have lead many teams throughout my school and pre-college years.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-number">2</div>
+                    <div class="skill-content">
+                        <h3>Martial Arts</h3>
+                        <p>I have achieved a black belt in Shotokan Karate and have won an international tournament in Ukraine.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-number">3</div>
+                    <div class="skill-content">
+                        <h3>Coding</h3>
+                        <p>I am learning webdev and also backend. I am learning HTML, CSS, JS, Python, Java, C++ and C.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-number">4</div>
+                    <div class="skill-content">
+                        <h3>Video Editing</h3>
+                        <p>I am proficient with video editing software like Premiere Pro, After Effects and even 3D with Maya.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="hello-link">
-            <a href="#contact">Skills</a>
-            <div class="circle"></div>
+    </section>
+    <section id="projects-section">
+        <div class="project-block">
+            <h2 class="project-heading">Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-number">1</div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/overclocked-2124/ResearchRanker">Reseach Rankers</a></h3>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-number">2</div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/overclocked-2124/HeliXR">HeliXR</a></h3>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-number">3</div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/overclocked-2124/Simple_Encryption">Simple Encryption</a></h3>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-number">4</div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/overclocked-2124/C_Projects">C Projects</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="footer-title">Get In Touch</h3>
+                <p>Available for freelance opportunities and collaborations.</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            
+            <div class="footer-col">
+                <h3 class="footer-title">Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3 class="footer-title">Connect</h3>
+                <div class="footer-social">
+                    <a href="https://github.com/overclocked-2124/" class="social-link">
+                        <div class="social-circle">GH</div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-circle">LI</div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-circle">IG</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 | All Rights Reserved</p>
         </div>
     </footer>
-</body>
+    
+    
+        
+    </body>
 </html>
